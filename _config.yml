@@ -30,7 +30,7 @@ paginate_path: /page:num/
 timezone: # https://en.wikipedia.org/wiki/List_of_tz_database_time_zones
 
 include:
-  - _pages
+  - pages
 
 # Exclude from processing.
 # The following items will not be processed, by default. Create a custom list
@@ -55,7 +55,7 @@ plugins:
 
 author:
   name   : "Jeremy Melvin"
-  avatar : "/assets/images/bio-photo.jpg"
+  avatar : "/images/profilePicture.jpeg"
   bio    : "Computational Scientist (PhD Applied Math/MS Statistics) performing scientific research using Python and C++. Practical data science/machine learning skills developed through the Apziva AI Residency program to enhance my background and expertise in statistical and mathematical modeling."
   links:
     - label: "GitHub"
@@ -75,7 +75,7 @@ footer:
       url: "https://www.linkedin.com/in/jeremy-melvin-430678207/"
 
 defaults:
-  # _posts
+  # posts
   - scope:
       path: ""
       type: posts
@@ -86,9 +86,9 @@ defaults:
       comments: true
       share: true
       related: true
-  # _pages
+  # pages
   - scope:
-      path: "_pages"
+      path: "pages"
       type: pages
     values:
       layout: single
