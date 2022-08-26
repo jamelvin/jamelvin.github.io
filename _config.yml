@@ -31,6 +31,7 @@ timezone: # https://en.wikipedia.org/wiki/List_of_tz_database_time_zones
 
 include:
   - pages
+  - _projects
 
 # Exclude from processing.
 # The following items will not be processed, by default. Create a custom list
@@ -97,6 +98,7 @@ defaults:
 collections:
   projects:
     output: true  
+    permalink: /:collection/:path
 
 category_archive:
   type: liquid
