@@ -95,7 +95,8 @@ defaults:
       author_profile: true
 
 collections:
-  - projects
+  projects:
+    output: true  
 
 category_archive:
   type: liquid
