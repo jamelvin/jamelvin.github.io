@@ -56,7 +56,7 @@ plugins:
 author:
   name   : "Jeremy Melvin"
   avatar : "/images/profilePicture.jpeg"
-  bio    : "PhD Applied Math/MS Statistics who works on mathematical and statistical modeling.  As a residnet in the Apziva Artificial Intelligence program I have expanded my machine learning skills through industry inspired projects. Here are some of the projects I've worked on."
+  bio    : "PhD Applied Math/MS Statistics currently working on mathematical and statistical modeling in fluid dynamics.  As a resident in the Apziva Artificial Intelligence program I have expanded my machine learning and data science skills through industry inspired projects. Here are some of the projects I've worked on."
   links:
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
