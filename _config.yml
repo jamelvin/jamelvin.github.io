@@ -18,7 +18,7 @@ email: JeremyMelvin18@gmail.com
 description: Some Machine Learning projects I have worked on
 github_username: jamelvin
 minimal_mistakes_skin: default
-search: true
+search: false
 
 # Build settings
 markdown: kramdown
@@ -78,15 +78,15 @@ footer:
 defaults:
   # posts
   - scope:
-      path: ""
+      path: "_projects"
       type: posts
     values:
       layout: single
       author_profile: true
-      read_time: true
-      comments: true
+      read_time: false
+      comments: false
       share: true
-      related: true
+      related: false
   # pages
   - scope:
       path: "pages"
