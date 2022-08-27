@@ -7,15 +7,18 @@ layout: archive
 <h3 class="archive__subtitle">{{ site.data.ui-text[site.locale].recent_posts | default: "Machine Learning Projects" }}</h3>
 
 {% if paginator %}
-  {% assign posts = paginator.posts %}
+  {% assign projects = paginator.projects %}
 {% else %}
-  {% assign posts = site.posts %}
+  {% assign projects = site.projects %}
 {% endif %}
 
 {% assign entries_layout = page.entries_layout | default: 'list' %}
 <div class="entries-{{ entries_layout }}">
-  {% for post in posts %}
-    {% include archive-single.html type=entries_layout %}
+  {% for project in projects %}
+    <article>
+      <h2>{{ project.title }}</h2>
+      <p>{{ project.excerpt | markdownify }}</p>
+    </article>
   {% endfor %}
 </div>
 
