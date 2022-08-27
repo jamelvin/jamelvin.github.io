@@ -16,7 +16,7 @@ layout: archive
 <div class="entries-{{ entries_layout }}">
   {% for project in projects %}
     <article>
-      <h2>{{ project.title }}</h2>
+      <h2><a href="{{ project.url }}">{{ project.title }}</a></h2>
       <p>{{ project.excerpt | markdownify }}</p>
     </article>
   {% endfor %}
