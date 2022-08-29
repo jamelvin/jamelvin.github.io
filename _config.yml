@@ -78,7 +78,7 @@ footer:
 defaults:
   # posts
   - scope:
-      path: "_projects"
+      path: ""
       type: posts
     values:
       layout: single
@@ -94,11 +94,18 @@ defaults:
     values:
       layout: single
       author_profile: true
+  # projects
+  - scope:
+      path: ""
+      type: projects
+    values:
+      layout: single
+      author_profile: true
+      share: true
 
 collections:
   projects:
     output: true  
-    layout: single
     permalink: /:collection/:path
 
 category_archive:
