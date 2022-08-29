@@ -16,7 +16,7 @@ Likert scale survey data was collected from a customer cohort and responses were
 
 The model suggests the most important characteristics leading to customer happiness were **Able to Find Everything** (30.3%) and **Delivery was On Time** (27.3%).
 
-The clearest story in the sample data was for **Delivery was On Time**, where 65% of *Happy* respondents gave a 5/5 rating compared to only 35% of *Unhappy* respondents. For **Able to Find Everything**, 48% of *Happy* respondents rated it 4/5 or above, compared to 30% of *Unhapp respondents.
+The clearest story in the sample data was for **Delivery was On Time**, where 65% of *Happy* respondents gave a 5/5 rating compared to only 35% of *Unhappy* respondents. For **Able to Find Everything**, 48% of *Happy* respondents rated it 4/5 or above, compared to 30% of *Unhappy* respondents.
 
 ![Histograms of Delivery was On Time and Able to Find Everything against Customer Happiness]({{ site.baseurl }}/images/HappyCustHistograms.png "Distribution of Ratings for Delivery was On Time and Able to Find Everything")
 
