@@ -98,6 +98,7 @@ defaults:
 collections:
   projects:
     output: true  
+    layout: single
     permalink: /:collection/:path
 
 category_archive:
