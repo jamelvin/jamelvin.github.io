@@ -19,9 +19,9 @@ Three Logistic Regression models were built, each representing a different stage
 
 | Model                                            | F1 Score    | Accuracy | Pct of False to All Leads | Pct of All Sales Captured |    
 | ------------------------------------------------ | ----------- | -------- | ------------------------- | ------------------------- |
-| Demographics and Financials                      | 17.7\%      | 66.0\%   | 89.3\%                    | 49.5\%                    |
-| Demographics, Financials and Contact             | 19.1\%      | 67.5\%   | 88.3\%                    | 52.9\%                    |
-| Demographics, Financials, Contact and Campagin   | 43.4\%      | 87.2\%   | 67.9\%                    | 66.8\%                    |
+| Demographics and Financials                      | 17.7%       | 66.0%    | 89.3%                     | 49.5%                    |
+| Demographics, Financials and Contact             | 19.1%       | 67.5%    | 88.3%                     | 52.9%                    |
+| Demographics, Financials, Contact and Campagin   | 43.4%       | 87.2%    | 67.9%                     | 66.8%                    |
 
 
 To see additional details and the Python code, see the respository [here](https://github.com/jamelvin/qt28VI6Bkxza3LNd).
