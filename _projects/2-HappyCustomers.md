@@ -30,4 +30,4 @@ The analysis excluded two survey responses after initial data exploration, **Cus
 
 A potentially concerning insight from the sample data was that **Customer Found their Order was as Expected** had the lowest average rating at only 2.53/5. While the relationship of this survey response was weak with customer happiness in the sample data, one hypothesis, if the raw data is correct, is that if customers are not typically receiving what they expect, this characteristic isn't informative of their happiness. However, intuition would suggest that receiving what you would expect to receive should be important. Future surveys may want to investigate this further, through additional questions, to better understand why customers are providing low ratings for **Customer Found their Order was as Expected**.
 
-To see additional details and the Python code, see the respository [here](https://github.com/jamelvin/K85eN3vyoFJwCQ3W).
+To see additional details and the Python code, see the repository [here](https://github.com/jamelvin/K85eN3vyoFJwCQ3W).

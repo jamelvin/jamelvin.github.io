@@ -9,9 +9,9 @@ tags:
   - Imbalanced Classes
 ---
 
-Demographics, financials and call center data was collected for customers during a direct marketing campaign selling term deposit contracts to clients at a European bank. Logistic Regression models using various subsets of the data were developed to predict if a customer will purchase the term deposit. As the typical purcase rate is quite low (only 7.2% in the provided dataset), the models prioritized balancing the tradeoff between losing possible subscriptions and producing false leads, with a bias towards capturing all possible subscribers.  This was done by using the **F1 score** as a key success metric to assess model performance.
+Demographics, financials and call center data was collected for customers during a direct marketing campaign selling term deposit contracts to clients at a European bank. Logistic Regression models using various subsets of the data were developed to predict if a customer would purchase the term deposit. As the typical purchase rate is quite low (only 7.2% in the provided dataset), the models prioritized balancing the tradeoff between losing possible subscriptions and producing false leads, with a bias towards capturing all possible subscribers.  This was done by using the **F1 score** as a key success metric to assess model performance.
 
-![Matrix of Potential Outcomes from Model Predicitons]({{ site.baseurl }}/images/TermDepositMatrix.png "Model Prediction Potential Outcomes Chart")
+![Matrix of Potential Outcomes from Model Predictions]({{ site.baseurl }}/images/TermDepositMatrix.png "Model Prediction Potential Outcomes Chart")
 
 <!--more-->
 
@@ -49,4 +49,4 @@ The model built on the full dataset (Demographics, Financials, Contact Informati
 
 ![Conversion success rates for final calls of a given length or longer]({{ site.baseurl }}/images/TermDepositDurations.png "Sales Conversion Rate for Duration of Call or Longer")
 
-To see additional details and the Python code, see the respository [here](https://github.com/jamelvin/qt28VI6Bkxza3LNd).
+To see additional details and the Python code, see the repository [here](https://github.com/jamelvin/qt28VI6Bkxza3LNd).
